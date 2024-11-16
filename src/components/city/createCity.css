@@ -1,0 +1,62 @@
+/* Container */
+.create-city-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background */
+  }
+  
+  /* Title */
+  .create-city-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Input fields */
+  .create-city-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+  }
+  
+  /* Button */
+  .create-city-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-city-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Error message */
+  .create-city-error {
+    color: #dc3545; /* Red error text color */
+    margin-top: 10px;
+  }
+  
+  /* Success message */
+  .create-city-success {
+    color: #28a745; /* Green success text color */
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .create-city-container {
+      width: 90%;
+    }
+  }
+  

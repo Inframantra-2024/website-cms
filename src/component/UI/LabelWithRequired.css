@@ -1,0 +1,6 @@
+/* LabelWithRequired.css */
+.required-star {
+    color: red;
+    margin-left: 2px; /* Adjust space between text and asterisk */
+  }
+  

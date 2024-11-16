@@ -1,0 +1,171 @@
+/* Container for the entire project section */
+.project-container-main{
+  width: 70%;
+  margin-left: 130px;
+  margin-bottom: 25px;
+}
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Heading style */
+  .project-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Create button style */
+  .project-container button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .project-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List style */
+  .project-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-list-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-list-item .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Edit and Delete button styles */
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Modal overlay style */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Modal content style */
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  /* Close button style */
+  .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .modal-close-button:hover {
+    color: #000;
+  }
+  /* Sparkle Button */
+  .sparkle-button {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .sparkle-button .sparkle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 196, 0, 0.5);
+    transform: scale(0);
+    transition: transform 0.6s ease-out;
+    pointer-events: none;
+  }
+  
+  .sparkle-button .sparkle.active {
+    transform: scale(4);
+  }
+  
+  .sparkle-button .sparkle-1 {
+    width: 80px;
+    height: 80px;
+    top: 20%;
+    left: 20%;
+  }
+  
+  .sparkle-button .sparkle-2 {
+    width: 120px;
+    height: 120px;
+    top: 10%;
+    left: 50%;
+  }
+  
+  .sparkle-button .sparkle-3 {
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    right: 10%;
+  }

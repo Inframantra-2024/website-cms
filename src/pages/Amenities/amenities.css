@@ -1,0 +1,75 @@
+/* AmenityForm.css */
+
+.amenity-form-container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .amenity-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .amenity-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .amenity-form {
+      padding: 10px;
+    }
+  
+    .form-group input,
+    .form-group select {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 8px 15px;
+    }
+  }
+  

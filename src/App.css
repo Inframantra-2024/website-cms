@@ -1,0 +1,69 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.app-container {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: #f6f6f6;
+  overflow: hidden;
+  display: flex;
+  overflow-y: hidden;
+}
+#header {
+  min-height: 0px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 3px #ccc;
+}
+.sidenav-container{
+    width: 235px;
+    height: 100vh;
+    overflow: auto;
+    background-color: #242d37;
+    position: relative;
+    padding-top: 60px;
+    z-index: 10;
+}
+.main-content {
+  margin-top: 2%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  width: 80%; /* Ensure it takes full width of the 85% column */
+}
+.container-fluid {
+  padding: 0 20px;
+}
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+      left: 0px;
+      /* margin-left: 235px; */
+  }
+}
+
